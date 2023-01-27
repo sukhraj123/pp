@@ -97,8 +97,9 @@ ul li.active a {
 
 .btn {
     border: 1px solid #fff;
-    padding: 10px 30px;
+    padding: 10px 35px ;
     color: #fff;
+    width: 100%;
     text-decoration: none;
     transition: 0.6s ease;
 }
@@ -107,7 +108,7 @@ ul li.active a {
     background-color: aliceblue;
     color: #000;
 }
-@media screen and (max-width: 600px) {
+@media (max-width: 700px){
     header{
         width: 100%;
         display: block;
@@ -123,29 +124,30 @@ ul li.active a {
     .Button{
         display: block;
         margin: auto;
-        
     }
-    .btn{
-        padding: 10px;
-        display: flex;
+    .btn a{
+        display: block;
+        margin: auto;
     }
     .box{
         display: block;
-        height: 800px;
+        margin: auto;
+        width: 95%;
     }
     .bo{
-        height: 30vh;
-        padding-left: 30%;
-        background-color: #000;
+        display: block;
+        margin: auto;
+        margin-top: 150%;
         
     }
     .bo p{
-        margin-top: 30%;
-        color: #fff;
-        font-size: 30px;
+        display: block;
+        margin: auto;
+        font-size: 28px;
     }
     .box p{
-        margin-top: 15%;
+        display: block;
+        margin: auto;
         font-size: 20px;
         
     }
